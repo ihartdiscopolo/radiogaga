@@ -1,0 +1,386 @@
+body 
+{
+    background-image: url(https://i.pinimg.com/736x/27/c5/d6/27c5d6d647a4865f88563af9a4299023.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#Header {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    background-image: linear-gradient(rgb(140, 0, 255), rgb(115, 0, 255));
+    border-radius: 12px;
+}
+
+.mainContainer {
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#Logo {
+    display: flex;
+    justify-content: flex-start;
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 37px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 14px;
+    margin-left: 20px;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+#Logo:hover {
+    transform: scale(1.2); 
+    color: rgb(213, 191, 255); 
+}
+
+.Main-nav a{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: inline-block;
+    background-color: rgb(101, 0, 224);
+    color: white;
+    padding: 26px;
+    font-family:'serif';
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #ffffff83;
+    border-radius: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.Main-nav a:hover {
+    transform: translateY(-5px); 
+    background-color: rgba(140, 0, 255, 0.8); 
+}
+
+.Banner {
+    display: inline-block; 
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-size: contain;
+    text-align: center;
+    width: 400px;
+    height: 220px;
+    padding: 20px;
+    left: 100px;
+    margin-top: 100px;
+    border-radius: 12px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.Banner h1 {
+    font-size: 50px; 
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.Banner p {
+    font-size: 20px; 
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.Banner a {
+    display: inline-block;
+    background-color: rgba(140, 0, 255, 0.5);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #ffffff83;
+    border-radius: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#Footer{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(140, 0, 255), rgb(115, 0, 255));
+    color: white;
+    border-radius: 12px;
+}
+
+#Main {
+    display: flex;
+    width: 850px;
+    margin: 20px auto;
+}
+
+.albumImage
+{
+    width: 200px;
+    border-radius: 20px;
+}
+
+#album-container {
+    width: 200px;
+    transition-timing-function: ease-in;
+    border: white;
+    border-radius: 12px;
+}
+
+#album-container img:hover {
+    transform: scale(1.1); 
+    color: rgb(213, 191, 255); 
+}
+
+#album-container img {
+    margin-bottom: 10px;
+    margin-top: 15px;
+   
+}
+
+.Container {
+    width: 750px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 50;
+    margin-bottom: 50px;
+    background-color: #5004cb;
+    border-radius: 12px;
+    text-align: center;
+    text-transform: bold;
+}
+
+.Contact {
+    color: white;
+    text-transform: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.Bottom-part ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.Bottom-part label {
+    width: 100%;
+    color:#ffffff;
+    display: block;
+    font-family:'serif';
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.Bottom-part select {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.Bottom-part input {
+    width: 98%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Bottom-part p {
+    width: 750px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 50;
+    margin-bottom: 50px;
+    background-color: #5004cb;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    text-transform: bold;
+}
+
+
+input[type=submit],input[type=reset] {
+    font-size: 15px;
+    background-color: #bc94fc;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 12px;
+}
+
+input[type=submit]:hover,input[type=reset]:hover {
+    font-size: 15px;
+    background-color: #f26b6b;
+    color: #fff;
+    border: 2px solid #9d3737;
+    cursor: pointer;
+}
+
+table
+{
+    width:auto;
+    margin:0px;;
+    border-radius: 12px;
+}
+
+.tracksTable {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 0px; 
+    background-color: rgba(255, 255, 255, 0.466);
+    border-radius: 12px;
+}
+.tracksTable th, .tracksTable td {
+    border: 1px solid #ddd; 
+    border-radius: 12px;
+    padding: 10px; 
+    text-align: center; 
+}
+
+.artists{
+    display: flex;
+}
+.artists img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.Name{
+    color: white;
+}
+
+.Name:hover {
+    color: rgb(213, 191, 255); 
+}
+
+.artistDetails{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #37664463;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    max-width: 600px; 
+}
+
+.albumDetailsContainer {
+    background-color: rgba(255, 255, 255, 0.336);
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.albumDetailsContainer:hover {
+    transform: scale(1.02);
+}
+
+.album-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(115, 0, 255);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.album-description {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+
+#playlist-container{
+    width: 850;
+    height: auto;
+}
+
+#playlist-container video{
+    width: 625px;
+    margin: 10px;
+
+}
+
+#artistContainer{
+    height: auto;
+}
+
+#Popular img{
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.PopularArtist {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #db8eff; 
+    color: #6901f1; 
+    box-shadow: 0px 0px 15px rgba(72, 58, 90, 0.5);
+    border: 3px solid #3700ff; 
+}
+
+.PopularArtist th {
+    background: #a7a0c7; 
+    color: #2f294a; 
+    padding: 12px;
+    border-bottom: 3px solid #574ed1;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.PopularArtist td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #9e91b4;
+}
+
+.PopularArtist tr:nth-child(even) {
+    background-color: #d9cfeb; 
+}
+
+.PopularArtist tr:nth-child(odd) {
+    background-color: #e7e1f3; 
+}
+
+.PopularArtist tr:hover {
+    background-color: #bca2d9; 
+    color: #2c294a;
+    transition: 0.3s ease-in-out;
+}
+
+.YoutubeLink a img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.YoutubeLink a img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.3);
+}
